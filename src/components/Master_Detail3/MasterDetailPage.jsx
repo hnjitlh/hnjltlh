@@ -34,16 +34,7 @@ export default function MasterDetailPage(props) {
           </nav>
         </div>
         <div className="col-md-8 col-12 ml-3 mb-5">
-          <p className={styles.title}>Status</p>
-          <p>{status}</p>
-          <p className={styles.title}>Order Date</p>
-          <p>{orderDate}</p>
-          <p className={styles.title}>Ship To</p>
-          <p>{shipTo}</p>
-          <p className={styles.title}>Order Total</p>
-          <p>{orderTotal}</p>
-          <p className={styles.title}>Description</p>
-          <p>{longDescription}</p>
+          <button class="btn btn-rounded btn-info">Create New Schedule</button>
         </div>
       </div>
     </div>
